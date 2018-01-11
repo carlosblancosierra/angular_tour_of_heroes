@@ -12,3 +12,4 @@ terminal log
 
 6. ng generate component hero-detail
 
+7. ng generate service hero
