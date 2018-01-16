@@ -15,3 +15,11 @@ terminal log
 7. ng generate service hero
 
 8. ng generate component messages
+
+9. ng generate module app-routing --flat --module=app
+
+    --flat puts the file in src/app instead of its own folder.
+    --module=app tells the CLI to register it in the imports array
+    of the AppModule
+
+10. ng generate component dashboard
